@@ -1,19 +1,19 @@
 {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.3/uproc.cli_0.2.3_windows_amd64.zip",
+            "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.4/uproc.cli_0.2.4_windows_amd64.zip",
             "bin": [
                 "uproc.exe"
             ],
-            "hash": "4e8c6021d5ddc12f4459f4788770fc0c82d671dfc028e7563dced6f76b1f5fba"
+            "hash": "2edbac1bf091cdff6ed88acdfc5862100c65fc93f3cb88ad863621e30b6eaab7"
         },
         "arm64": {
-            "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.3/uproc.cli_0.2.3_windows_arm64.zip",
+            "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.4/uproc.cli_0.2.4_windows_arm64.zip",
             "bin": [
                 "uproc.exe"
             ],
-            "hash": "ea54ae7de7b386b0c6ff4e07dad85825432c15acb98fa9a96da4419fa80b8b13"
+            "hash": "2bf5f90537761bc4687133a323a2156fda10cdf826519f1ce9866a3e698a1fea"
         }
     },
     "homepage": "https://github.com/uproc-io/uproc-cli",
