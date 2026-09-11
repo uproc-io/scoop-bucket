@@ -1,30 +1,22 @@
 {
-  "version": "0.2.1",
-  "description": "Uproc CLI",
-  "homepage": "https://github.com/uproc-io/uproc-cli",
-  "license": "Proprietary",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.1/uproc.cli_0.2.1_windows_amd64.zip",
-      "hash": "6c4d0539e1a7b341fe32c855d44c614fbb56fec0b9c2387b67fe5475cd5e2700"
-    },
-    "arm64": {
-      "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.1/uproc.cli_0.2.1_windows_arm64.zip",
-      "hash": "bbbef1649d20f0c9c647e86a5fd68fb1aafc62ac298aef5958508172d3ccb43c"
-    }
-  },
-  "bin": "uproc.exe",
-  "checkver": {
-    "github": "https://github.com/uproc-io/uproc-cli"
-  },
-  "autoupdate": {
+    "version": "0.2.2",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/uproc-io/uproc-cli/releases/download/v$version/uproc.cli_$version_windows_amd64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/uproc-io/uproc-cli/releases/download/v$version/uproc.cli_$version_windows_arm64.zip"
-      }
-    }
-  }
+        "64bit": {
+            "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.2/uproc.cli_0.2.2_windows_amd64.zip",
+            "bin": [
+                "uproc.exe"
+            ],
+            "hash": "5f5cf29727f1e564f83b64468db820de24a5c2a6bee62fbd9d2b33f1e0f981c3"
+        },
+        "arm64": {
+            "url": "https://github.com/uproc-io/uproc-cli/releases/download/v0.2.2/uproc.cli_0.2.2_windows_arm64.zip",
+            "bin": [
+                "uproc.exe"
+            ],
+            "hash": "40357db9c218c7397df262d760acf2316de26ec6f7c20072835049016a1ae28a"
+        }
+    },
+    "homepage": "https://github.com/uproc-io/uproc-cli",
+    "license": "Proprietary",
+    "description": "Uproc CLI"
 }
